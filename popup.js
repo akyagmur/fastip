@@ -9,6 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
 			document.getElementById('status').innerHTML = "<b>Your ip:</b> "+response.query+"<br>"+"<b>Your country:</b> "+response.country+"<br>"+"<b>Your city:</b> "+response.city+"<br>"+"<b>Your timezone:</b> "+response.timezone;
 		}
 	};
-	xhttp.open("GET", "http://ip-api.com/json/” + “istanbula hoşgeldin”, true);
+	xhttp.open("GET","http://ip-api.com/json",true);
 	xhttp.send();
 });
